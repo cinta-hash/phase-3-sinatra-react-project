@@ -5,6 +5,6 @@ class CreateMovies < ActiveRecord::Migration[6.1]
     t.string :plot_summary
     t.string :genre
     t.datetime :release_date 
-    t.image_ulr :movie_poster
+    end
   end
 end

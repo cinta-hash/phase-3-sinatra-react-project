@@ -5,7 +5,6 @@ class CreateReviews < ActiveRecord::Migration[6.1]
       t.integer :movie_id   
       t.integer :rating
       t.string :comment
-      t.timestamp
     end
   end
 end
